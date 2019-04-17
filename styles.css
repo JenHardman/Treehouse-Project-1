@@ -74,13 +74,14 @@ header .profile-image {
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(360deg);
+  transform: scale(1.2) rotate(180deg);
 }
 .tag {
   background-color: #efefef;
   color: black;
   padding: 10px;
   border-radius: 5px;
+  border: 3px solid black;
   display: table;
   margin: 10px auto;
 }
